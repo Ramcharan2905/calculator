@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading
+{
+    text-align: center;
+    color: white;
+}
+
+.all
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+    border: 2px solid lightgray;
+    border-radius: 2rem;
+}
+
+.row
+{
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0.25rem;
+    padding: 0.25rem;
+}
+
+.button
+{
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    margin: 10px;
+}
+
+.display
+{
+    width: 220px;
+    height: 80px;
+    color: white;
+    font-size: 50px;
+    text-align: end;
+    opacity: 0.75;
+    border: 2px solid lightgray;
+    border-radius: 1rem;
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+}
+
+.spl 
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 1rem;
+}
+
+.gray
+{
+    background-color: lightgray;
+    color: black;
+}
+
+.org
+{
+    background-color: orange;
+}
